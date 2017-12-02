@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+interface ${1:${TM_FILENAME/(.+)\..+|.*/$1/:name}}${2: extends ${3:Base$1}}
+{
+	$4
+}
+]]></content>
+	<tabTrigger>interface_create</tabTrigger>
+	<scope>source.php</scope>
+	<description>Interface based filename</description>
+</snippet>

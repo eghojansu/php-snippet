@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+protected ${1:static }\$${2:PropertyName}${3: = ${4:null}};
+]]></content>
+	<tabTrigger>prop</tabTrigger>
+	<scope>source.php</scope>
+	<description>Protected property</description>
+</snippet>

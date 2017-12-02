@@ -1,0 +1,15 @@
+<snippet>
+	<content><![CDATA[
+/**
+ * This file is part of the ${1:${2:${TM_FULLNAME}}'s project}.
+ * ${3:
+ * (c) $2
+ * }
+ * For the full copyright and license information, please view the LICENSE
+ * file that was distributed with this source code.
+ */
+]]></content>
+	<tabTrigger>project_meta</tabTrigger>
+	<scope>source.php</scope>
+	<description>Project meta</description>
+</snippet>

@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+class ${1:${TM_FILENAME/(.+)\..+|.*/$1/:name}}${2: extends ${3:Base$1}}
+{
+	$4
+}
+]]></content>
+	<tabTrigger>class_create</tabTrigger>
+	<scope>source.php</scope>
+	<description>Class based filename</description>
+</snippet>

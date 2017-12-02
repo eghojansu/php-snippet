@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+private ${1:static }\$${2:PropertyName}${3: = ${4:null}};
+]]></content>
+	<tabTrigger>prip</tabTrigger>
+	<scope>source.php</scope>
+	<description>Private property</description>
+</snippet>

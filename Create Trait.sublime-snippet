@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+trait ${1:${TM_FILENAME/(.+)\..+|.*/$1/:name}}
+{
+	$2
+}
+]]></content>
+	<tabTrigger>trait_create</tabTrigger>
+	<scope>source.php</scope>
+	<description>Trait based filename</description>
+</snippet>
