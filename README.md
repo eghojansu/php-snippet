@@ -2,6 +2,12 @@
 
 This repository contains PHP object-related snippet.
 
+## Installation
+
+First you need to install [Sublime Package Control][1], then execute command `Package Control: Add Repository` to insert this repository url [https://github.com/eghojansu/php-snippet.git][2].
+
+Or you can manually download this repositor as zip/tar then extract in Sublime User Package directory.
+
 ## Snippet List
 
 * Create Class based on filename
@@ -19,3 +25,6 @@ This repository contains PHP object-related snippet.
 Happy coding 
 --
 ekokurniawan
+
+[1]: https://packagecontrol.io/installation
+[2]: https://github.com/eghojansu/php-snippet.git
