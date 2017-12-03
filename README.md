@@ -22,9 +22,11 @@ Or you can manually download this repository as zip/tar then extract in Sublime 
 * Create Interface method (tab trigger: `pubi`)
 * Insert project meta in comments (tab trigger: `project_meta`)
 
-Happy coding 
---
+```sh
+Happy coding,
+
 ekokurniawan
+```
 
 [1]: https://packagecontrol.io/installation
 [2]: https://github.com/eghojansu/php-snippet.git
