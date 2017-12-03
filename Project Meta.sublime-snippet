@@ -7,7 +7,7 @@
  * }
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
- */
+ */$0
 ]]></content>
 	<tabTrigger>project_meta</tabTrigger>
 	<scope>source.php</scope>

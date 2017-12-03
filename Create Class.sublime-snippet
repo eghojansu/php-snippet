@@ -1,8 +1,8 @@
 <snippet>
 	<content><![CDATA[
-class ${1:${TM_FILENAME/(.+)\..+|.*/$1/:name}}${2: extends ${3:Base$1}}
+class ${1:${TM_FILENAME/^(\w+)|(\..+)$/(?1:\1:)(?2::)/g}}${2: extends ${3:Base$1}}
 {
-	$4
+	${4:// TODO: write needed properties and methods...}$0
 }
 ]]></content>
 	<tabTrigger>class_create</tabTrigger>

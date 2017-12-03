@@ -1,8 +1,8 @@
 <snippet>
 	<content><![CDATA[
-trait ${1:${TM_FILENAME/(.+)\..+|.*/$1/:name}}
+trait ${1:${TM_FILENAME/^(\w+)|(\..+)$/(?1:\1:)(?2::)/g}}
 {
-	$2
+	${2:// TODO: write needed properties and methods...}$0
 }
 ]]></content>
 	<tabTrigger>trait_create</tabTrigger>
